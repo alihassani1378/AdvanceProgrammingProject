@@ -8,7 +8,7 @@ namespace AdvaceProject.BackEnd
 {
     public class UnitOfWork:IDisposable
     {
-        Store_DBEntities1 db = new Store_DBEntities1();
+        Store_DBEntities db = new Store_DBEntities();
 
 
         public void Save()

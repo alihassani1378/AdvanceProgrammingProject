@@ -8,10 +8,10 @@ namespace AdvaceProject.BackEnd
 {
     public class GenericRepository<TEntity> where TEntity : class
     {
-        private Store_DBEntities1 _db;
+        private Store_DBEntities _db;
         private DbSet<TEntity> _dbSet;
 
-        public GenericRepository(Store_DBEntities1 db)
+        public GenericRepository(Store_DBEntities db)
         {
             _db = db;
             _dbSet = _db.Set<TEntity>();
