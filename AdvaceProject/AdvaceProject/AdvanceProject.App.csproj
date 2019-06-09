@@ -94,7 +94,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MyModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="BackEnd\UnitOfWork.cs" />
+    <Compile Include="BackEnd\Context\UnitOfWork.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
