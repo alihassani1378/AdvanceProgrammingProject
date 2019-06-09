@@ -72,13 +72,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="BackEnd\Cloth.cs">
+      <DependentUpon>MyModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="BackEnd\Customers.cs">
       <DependentUpon>MyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="BackEnd\Food.cs">
       <DependentUpon>MyModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="BackEnd\GenericRepository.cs" />
+    <Compile Include="BackEnd\Manager.cs">
+      <DependentUpon>MyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BackEnd\Services\GenericRepository.cs" />
     <Compile Include="BackEnd\MyModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -136,6 +142,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BackEnd\Repositories\" />
     <Folder Include="FrontEnd\" />
   </ItemGroup>
   <ItemGroup>

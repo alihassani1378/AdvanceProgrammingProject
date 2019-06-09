@@ -27,5 +27,7 @@ namespace AdvaceProject.BackEnd
     
         public virtual DbSet<Customers> Customers { get; set; }
         public virtual DbSet<Food> Food { get; set; }
+        public virtual DbSet<Cloth> Clothes { get; set; }
+        public virtual DbSet<Manager> Managers { get; set; }
     }
 }
